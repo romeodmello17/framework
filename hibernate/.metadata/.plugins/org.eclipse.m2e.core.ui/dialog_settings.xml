@@ -2,7 +2,11 @@
 <section name="Workbench">
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="C:\Users\Rahul\Desktop\framework\hibernate\Many-To-Many-Uni"/>
+			<item value="C:\Users\Rahul\Desktop\framework\hibernate\One-To-One-BiDi\pom.xml"/>
+			<item value="C:\Users\Rahul\Desktop\framework\hibernate"/>
 			<item value="C:\Users\Rahul\Desktop\framework\hibernate\HibernateFirstProject"/>
+			<item value="C:\Users\Rahul\Desktop\framework\hibernate\One-to-One-Uni\pom.xml"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
@@ -49,6 +53,11 @@
 		<list key="name">
 		</list>
 		<list key="artifactId">
+			<item value="Many-To-Many-Bidi"/>
+			<item value="Many-To-One-Bidi"/>
+			<item value="One-To-Many-Bidi"/>
+			<item value="One-To-One-BiDi"/>
+			<item value="One-To-One-Bi"/>
 			<item value="Many-To-Many-Uni"/>
 			<item value="Many-To-One-Uni"/>
 			<item value="One-to-Many-Uni"/>

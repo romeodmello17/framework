@@ -9,14 +9,14 @@ public class Fetch {
 		EntityManagerFactory emf = Persistence.createEntityManagerFactory("dev");
 		EntityManager em =emf.createEntityManager();
 		
-		Car find = em.find(Car.class, 101);
+		Car car = em.find(Car.class, 101);
 		
-		if (find!= null) {
-			Engine engine = find.getEngine();
+		if (car!= null) {
+			Engine engine = car.getEngine();
 			System.out.println("Car Details============================");
-			System.out.println(find.getCid());
-			System.out.println(find.getBrand());
-			System.out.println(find.getPrice());
+			System.out.println(car.getCid());
+			System.out.println(car.getBrand());
+			System.out.println(car.getPrice());
 			
 			System.out.println("----------------------------------");
 			System.out.println(engine.getEid());

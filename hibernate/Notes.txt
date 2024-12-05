@@ -131,4 +131,12 @@ note:
     3. many-to-one:
 
     4. many-to-many-uni:
-    
+
+
+Bidirectional Mapping:
+    1. one-to-one-bi:
+        - In one-to-one-bi case we can be able to fetch data from both the direction.
+            eg. you can get car by using engine and engine by using car.
+        - In one-to-one-bi case foreign key column will be created in both the tables.
+        - To avoid anyone of the foreign key and acheive Bidirectional mapping we use @joincolumn anotation in the class where we want to kepp foreign key and we use mappedBy attribute in mapping anotation in the class from  which we want to remove the foreign key.
+        
